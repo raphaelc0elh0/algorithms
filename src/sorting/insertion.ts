@@ -1,3 +1,5 @@
+import insert from "src/utils/insert";
+
 /**
   * Insertion sort is a simple sorting algorithm that builds the final sorted array
   * one item at a time.
@@ -18,14 +20,14 @@ export default function insertionSort(array: any[]) {
       if (selected > compare) {
         inserted = true;
         result.splice(i, 1);
-        result = [...result.slice(0, j + 1), selected, ...result.slice(j + 1)];
+        result = insert(result, j + 1, selected)
         break;
       }
     }
 
     if (!inserted) {
       result.splice(i, 1);
-      result.unshift(selected);
+      result = insert(result, 0, selected)
     }
   }
 
