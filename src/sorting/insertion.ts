@@ -1,3 +1,10 @@
+/**
+  * Insertion sort is a simple sorting algorithm that builds the final sorted array
+  * one item at a time.
+  * It works by iterating through an array of unsorted elements, and inserting
+  * each element into its proper position in a sorted subarray that is built
+  * from left to right.
+ */
 export default function insertionSort(array: any[]) {
   let result = [...array]
 

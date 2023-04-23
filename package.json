@@ -7,8 +7,8 @@
     "node": "19.5.0"
   },
   "scripts": {
-    "test": "node --loader tsx --test src/**/*.test.ts",
-    "test:watch": "node --loader tsx --test --watch src/**/*.test.ts"
+    "test": "node --loader tsx --test",
+    "test:all": "yarn test src/**/*.test.ts"
   },
   "devDependencies": {
     "@types/node": "^18.15.11",
