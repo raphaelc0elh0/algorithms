@@ -1,14 +1,14 @@
 import assert from "assert";
 import { describe, it, test } from "node:test";
 
-import arrays from "../data/arrays";
+import arrays from "./data/arrays";
 
-import bubbleSort from '../sorting/bubble'
-import insertionSort from '../sorting/insertion'
-import mergeSort from '../sorting/merge'
-import quickSort from '../sorting/quick'
-import radixSort from '../sorting/radix'
-import selectionSort from '../sorting/selection'
+import bubbleSort from '../algorithms/sorting/bubble'
+import insertionSort from '../algorithms/sorting/insertion'
+import mergeSort from '../algorithms/sorting/merge'
+import quickSort from '../algorithms/sorting/quick'
+import radixSort from '../algorithms/sorting/radix'
+import selectionSort from '../algorithms/sorting/selection'
 
 const sortFunctions = [
   bubbleSort,
