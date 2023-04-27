@@ -1,13 +1,34 @@
 # Algorithms and Data Structures
 
-## Sorting
+This repository contains my work and notes from the [Algorithms and Data Structures](https://www.udemy.com/share/101X5s3@dz13ZyyAszUVEOnbV764PzezFhBQbiuUPi1Dqn5kBumokGE5IMtkncTOsWYi7wp5Bw==/) course on Udemy.
 
-Sorting is the process of rearranging the items in a collection (e.g. an array) so that the items are in some kind of order.
+## Overview
 
-### Bubble Sort
+In this course, I learned about various algorithms and data structures that are commonly used in computer science. This includes topics such as sorting and searching algorithms, linked lists, trees, and graphs.
 
-Bubble sort is a simple sorting algorithm that repeatedly steps through the list, compares adjacent elements and swaps them if they are in the wrong order. The pass through the list is repeated until the list is sorted. The algorithm, which is a comparison sort, is named for the way smaller or larger elements "bubble" to the top of the list.
+## Contents
 
-### Selection sort
+The repository is organized by topic, with each topic having its own folder containing relevant code and notes.
 
-Selection sort is another simple sorting algorithm that sorts an array by repeatedly finding the minimum element from the unsorted part of the array and putting it at the beginning. The algorithm maintains two subarrays in a given array: the sorted subarray and the unsorted subarray. Initially, the sorted subarray is empty and the unsorted subarray is the entire array. The algorithm proceeds by finding the smallest element in the unsorted subarray and swapping it with the leftmost element, thereby expanding the sorted subarray by one element.
+### Algorithms
+
+- Sorting: implementation of various sorting algorithms such as bubble sort, selection sort, insertion sort, merge sort, and quicksort.
+- Searching: implementation of linear search and binary search.
+
+### Data structures
+
+- Linked Lists: implementation of singly linked lists and doubly linked lists.
+- (still under development, more to come)
+
+## Setup
+
+To get started with this project, you'll need to have Node.js installed on your machine.
+To run tests, make sure to run the following commands:
+```
+yarn install
+yarn test:all
+```
+
+## Acknowledgments
+
+I would like to thank the instructor of the course: [Colt Steele](https://www.youtube.com/c/ColtSteeleCode), for providing such a comprehensive and engaging learning experience.
