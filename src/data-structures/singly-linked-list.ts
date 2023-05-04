@@ -65,7 +65,7 @@ export default class SinglyLinkedList {
   }
 
   get(idx: number) {
-    if (idx < 0 || idx > this.length) return undefined;
+    if (idx < 0 || idx >= this.length) return undefined;
 
     let current: SinglyLinkedListNode | null = this.head;
 
