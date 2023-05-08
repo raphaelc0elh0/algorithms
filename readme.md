@@ -17,7 +17,9 @@ The repository is organized by topic, with each topic having its own folder cont
 
 ### Data structures
 
-- Linked Lists: implementation of singly linked lists and doubly linked lists.
+- [Singly Linked List](src/data-structures/singly-linked-list.ts)
+- [Doubly Linked List](src/data-structures/doubly-linked-list.ts)
+- [Stack](src/data-structures/stack.ts)
 - (still under development, more to come)
 
 ## Setup
