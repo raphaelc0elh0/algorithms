@@ -20,13 +20,15 @@ The repository is organized by topic, with each topic having its own folder cont
 - [Singly Linked List](src/data-structures/singly-linked-list.ts)
 - [Doubly Linked List](src/data-structures/doubly-linked-list.ts)
 - [Stack](src/data-structures/stack.ts)
+- [Queue](src/data-structures/queue.ts)
 - (still under development, more to come)
 
 ## Setup
 
 To get started with this project, you'll need to have Node.js installed on your machine.
 To run tests, make sure to run the following commands:
-```
+
+```bash
 yarn install
 yarn test:all
 ```
