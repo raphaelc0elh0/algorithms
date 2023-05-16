@@ -21,6 +21,7 @@ The repository is organized by topic, with each topic having its own folder cont
 - [Doubly Linked List](src/data-structures/doubly-linked-list.ts)
 - [Stack](src/data-structures/stack.ts)
 - [Queue](src/data-structures/queue.ts)
+- [BST - Binary Search Tree](src/data-structures/binary-search-tree.ts)
 - (still under development, more to come)
 
 ## Setup
