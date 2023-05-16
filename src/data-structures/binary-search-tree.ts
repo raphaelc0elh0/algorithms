@@ -53,7 +53,7 @@ export default class BinarySearchTree {
   root: BinarySearchTreeNode | null = null
 }
 
-class BinarySearchTreeNode {
+export class BinarySearchTreeNode {
   constructor(value: any = null) {
     this.value = value ?? null
   }
